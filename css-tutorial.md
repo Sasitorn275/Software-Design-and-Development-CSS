@@ -233,8 +233,47 @@ div > p {
 ### ผลการทดลอง
 ```html
 [วางโค้ดที่นี่]
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>เมนูนำทาง</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<nav>
+
+    <ul>
+
+        <li>
+            <a href="#" class="menu-item">หน้าแรก</a>
+        </li>
+
+        <li>
+            <a href="#" class="menu-item" id="active">สินค้า</a>
+        </li>
+
+        <li>
+            <a href="#" class="menu-item">เกี่ยวกับเรา</a>
+        </li>
+
+        <li>
+            <a href="#" class="menu-item">ติดต่อ</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+</body>
+</html>
+
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+<img width="1431" height="251" alt="image" src="https://github.com/user-attachments/assets/81f9d336-fb23-402e-9da1-eca53e13d2f2" />
 
 
 [](#การทดลองที่-3-การจัดการสีและพื้นหลัง)
@@ -340,7 +379,129 @@ background-size: cover;
 ```html
 [วางโค้ดที่นี่]
 ```
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Product Card</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- product 1 -->
+    <div class="product-card">
+
+        <div class="product-image"
+        style="background-image: url('image/product1.jpg');">
+        </div>
+
+        <div class="product-info">
+
+            <h2 class="product-title">น้ำพีช</h2>
+
+            <p class="product-price">฿69</p>
+
+            <p class="product-description">
+                รายละเอียดสินค้า 
+            </p>
+
+            <a href="#" class="product-button">
+                เพิ่มลงตะกร้า
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- product 2 -->
+    <div class="product-card">
+
+        <div class="product-image"
+        style="background-image: url('image/product2.jpg');">
+        </div>
+
+        <div class="product-info">
+
+            <h2 class="product-title">สับปะรดกวน</h2>
+
+            <p class="product-price">฿29</p>
+
+            <p class="product-description">
+                รายละเอียดสินค้า
+            </p>
+
+            <a href="#" class="product-button">
+                เพิ่มลงตะกร้า
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- product 3 -->
+    <div class="product-card">
+
+        <div class="product-image"
+        style="background-image: url('image/product3.jpg');">
+        </div>
+
+        <div class="product-info">
+
+            <h2 class="product-title">ซอส</h2>
+
+            <p class="product-price">฿69</p>
+
+            <p class="product-description">
+                รายละเอียดสินค้า 
+            </p>
+
+            <a href="#" class="product-button">
+                เพิ่มลงตะกร้า
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- product 4 -->
+    <div class="product-card">
+
+        <div class="product-image"
+        style="background-image: url('image/product4.jpg');">
+        </div>
+
+        <div class="product-info">
+
+            <h2 class="product-title">ขนมไก่ย่างถูกเผา</h2>
+
+            <p class="product-price">฿20</p>
+
+            <p class="product-description">
+                รายละเอียดสินค้า 
+            </p>
+
+            <a href="#" class="product-button">
+                เพิ่มลงตะกร้า
+            </a>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
+
+
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+<img width="2874" height="714" alt="image" src="https://github.com/user-attachments/assets/760682af-c6de-499d-8abf-a340f8a2b356" />
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
